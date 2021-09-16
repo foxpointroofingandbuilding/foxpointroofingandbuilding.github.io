@@ -45,6 +45,14 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 $(document).ready(function(){
+
+    var carouselOne = new bootstrap.Carousel(document.querySelector('#carouselOne'),{ interval: false});
+    var carouselTwo = new bootstrap.Carousel(document.querySelector('#carouselTwo'),{ interval: false});
+    var carouselThree = new bootstrap.Carousel(document.querySelector('#carouselThree'), { interval: false});
+    
+
+
+
     $('#messageButton').click(function(){
         var name = $('#inputName').val();
         var email = $('#inputEmail').val();

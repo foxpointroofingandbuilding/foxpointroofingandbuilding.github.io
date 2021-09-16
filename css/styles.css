@@ -5817,7 +5817,7 @@ textarea.form-control-lg {
 }
 
 .carousel-control-prev,
-.carousel-control-next {
+.carousel-control-next  {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -5831,9 +5831,10 @@ textarea.form-control-lg {
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.5;
   transition: opacity 0.15s ease;
+  font-size: 2.5rem;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
 .carousel-control-next {
